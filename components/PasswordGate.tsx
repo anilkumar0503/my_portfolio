@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Lock, Eye, EyeOff } from "lucide-react";
 
 interface PasswordGateProps {
@@ -15,10 +15,21 @@ export default function PasswordGate({ children }: PasswordGateProps) {
 
   const correctPassword = "AKB@2026";
 
+  useEffect(() => {
+    // Check if already authenticated in session
+    const auth = sessionStorage.getItem("portfolio_auth");
+    if (auth === "true") {
+      setIsAuthenticated(true);
+    }
+  }, []);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === correctPassword) {
+    const trimmedPassword = password.trim();
+    
+    if (trimmedPassword === correctPassword) {
       setIsAuthenticated(true);
+      sessionStorage.setItem("portfolio_auth", "true");
       setError("");
     } else {
       setError("Incorrect password. Please try again.");
@@ -92,6 +103,7 @@ export default function PasswordGate({ children }: PasswordGateProps) {
 
           <div className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
             <p>This portfolio is password protected</p>
+            {/* <p className="mt-2 text-xs">Password: AKB@2026</p> */}
           </div>
         </div>
       </div>

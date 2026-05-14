@@ -86,9 +86,7 @@ export default function Contact() {
           <div className="mt-16 p-8 bg-gradient-to-r from-primary-600 to-purple-600 rounded-2xl text-white text-center">
             <h3 className="text-2xl font-bold mb-4">Vision</h3>
             <p className="text-lg text-primary-50 max-w-3xl mx-auto">
-              My goal is to continue building impactful AI-powered educational platforms that 
-              simplify institutional operations, improve learning experiences, automate workflows, 
-              and create scalable digital ecosystems for the future of education.
+              My goal is to continue building impactful AI-powered educational platforms that simplify institutional operations, improve learning experiences, automate workflows, and create scalable digital ecosystems for the future of education.
             </p>
           </div>
         </motion.div>

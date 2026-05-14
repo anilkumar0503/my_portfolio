@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 rounded-full mb-6">
             <Sparkles className="w-4 h-4 text-primary-600 dark:text-primary-400" />
             <span className="text-sm font-medium text-primary-700 dark:text-primary-300">
-              10 Years Building Scalable Products
+              10 Years of Building Scalable Products
             </span>
           </div>
 
@@ -29,7 +29,7 @@ export default function Hero() {
 
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-3xl mx-auto">
             Building AI-Powered EdTech Platforms | SaaS Ecosystem Architect | 
-            10 years transforming education through scalable technology
+            10 years of transforming education through scalable technology
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

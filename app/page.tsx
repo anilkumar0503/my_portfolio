@@ -1,0 +1,23 @@
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import AIWorkflow from "@/components/AIWorkflow";
+import Products from "@/components/Products";
+import Metrics from "@/components/Metrics";
+import Architecture from "@/components/Architecture";
+import CaseStudies from "@/components/CaseStudies";
+import Contact from "@/components/Contact";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen">
+      <Hero />
+      <About />
+      <Metrics />
+      <AIWorkflow />
+      <Products />
+      <CaseStudies />
+      <Architecture />
+      <Contact />
+    </main>
+  );
+}

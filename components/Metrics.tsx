@@ -31,9 +31,9 @@ export default function Metrics() {
     },
     {
       icon: Shield,
-      value: "0",
-      label: "Critical Security Vulnerabilities",
-      color: "from-red-500 to-rose-500",
+      value: "95%",
+      label: "User Satisfaction Rate",
+      color: "from-emerald-500 to-green-500",
     },
     {
       icon: Clock,

@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 rounded-full mb-6">
             <Sparkles className="w-4 h-4 text-primary-600 dark:text-primary-400" />
             <span className="text-sm font-medium text-primary-700 dark:text-primary-300">
-              AI-Powered Product Development
+              10 Years Building Scalable Products
             </span>
           </div>
 

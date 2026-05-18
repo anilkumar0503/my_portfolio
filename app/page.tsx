@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import AIWorkflow from "@/components/AIWorkflow";
+import AIPMWorkflow from "@/components/AIPMWorkflow";
 import Products from "@/components/Products";
 import Metrics from "@/components/Metrics";
 import Architecture from "@/components/Architecture";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Metrics />
+        <AIPMWorkflow />
         <AIWorkflow />
         <Products />
         <CaseStudies />

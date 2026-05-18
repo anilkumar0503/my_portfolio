@@ -18,6 +18,7 @@ export default function Navigation() {
   const navLinks = [
     { href: "#about", label: "About" },
     { href: "#metrics", label: "Impact" },
+    { href: "#ai-pm-workflow", label: "AI PM Framework" },
     { href: "#ai-workflow", label: "AI Workflow" },
     { href: "#products", label: "Products" },
     { href: "#case-studies", label: "Case Studies" },

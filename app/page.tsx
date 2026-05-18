@@ -8,10 +8,12 @@ import Architecture from "@/components/Architecture";
 import CaseStudies from "@/components/CaseStudies";
 import Contact from "@/components/Contact";
 import PasswordGate from "@/components/PasswordGate";
+import PortfolioTracker from "@/components/PortfolioTracker";
 
 export default function Home() {
   return (
     <PasswordGate>
+      <PortfolioTracker />
       <main className="min-h-screen">
         <Hero />
         <About />
